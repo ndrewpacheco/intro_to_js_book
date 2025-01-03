@@ -1,0 +1,49 @@
+5) Identify the Constructors for each of the following methods and classify each method as either a "Static" or an "Instance" method:
+
+- substring
+Constructor = String
+instance
+
+- create
+Object
+static
+
+fromCharCode
+String
+static
+
+slice
+Array, String
+instance
+
+toString
+Number, String, Array, Object
+instance
+
+
+6 Which of the following names satisfy the style guidelines for variable names? For the purposes of this question, constants are not variables.
+
+
+index yes
+CatName yes
+snake_case no
+lazyDog yes
+quick_Fox no
+1stCharacter no
+operand2 yes
+BIG_NUMBER no
+
+7
+index
+CatName
+
+lazyDog
+operand2
+
+
+9
+
+snake_case
+
+quick_Fox
+1stCharacter
