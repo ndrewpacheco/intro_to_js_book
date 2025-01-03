@@ -49,9 +49,7 @@
 // console.log(`The value of 5 + 10 is ${Number('5') + 10}.`)
 
 
-// Copy Code
-// The value of 5 + 10 is 15.
-// Solution
+
 // Will an error occur if you try to access an array element with an index that is greater than or equal to the length of the array? For example:
 
 // Copy Code
