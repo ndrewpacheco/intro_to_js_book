@@ -1,7 +1,3 @@
-// let rlSync = require('readline-sync');
-// let name = rlSync.question("What's your name?\n");
-
-
 function getName(prompt) {
   let rlSync = require('readline-sync');
   return rlSync.question(prompt);
