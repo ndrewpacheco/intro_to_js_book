@@ -99,21 +99,21 @@
 // { a: 1, b: 2, c: [3, 4, 5], d: {} }, {}[3, 4, 5], function xyzzy(), function hello(greeting, name)
 
 
-function bar(arg1, arg2) {
-  let foo = 'Hello';
-  const qux = {
-    abc: [1, 2, 3, [4, 5, 6]],
-    def: null,
-    ghi: NaN,
-    jkl: foo,
-    mno: arg1,
-    pqr: arg2,
-  };
+// function bar(arg1, arg2) {
+//   let foo = 'Hello';
+//   const qux = {
+//     abc: [1, 2, 3, [4, 5, 6]],
+//     def: null,
+//     ghi: NaN,
+//     jkl: foo,
+//     mno: arg1,
+//     pqr: arg2,
+//   };
 
-  return qux;
-}
+//   return qux;
+// }
 
-let result = bar('Victor', 'Antonina');
+// let result = bar('Victor', 'Antonina');
 
 // variables: bar, arg1, arg2, foo, qux. result
 // prop names: abc
@@ -126,3 +126,18 @@ let result = bar('Victor', 'Antonina');
 
 // primitives: 'Hello, 1 2 3 4 5 6, null, nan, victor, antonia
 // obj: bar, quz,[1, 2, 3, [4, 5, 6]]
+
+function allMatches(words, regex) {
+  return words.filter(word => regex.test(word))
+}
+
+let words = [
+  'laboratory',
+  'experiment',
+  'flab',
+  'Pans Labyrinth',
+  'elaborate',
+  'polar bear',
+];
+
+console.log(allMatches(words, /lab/)); // => ['laboratory', 'flab', 'elaborate']
